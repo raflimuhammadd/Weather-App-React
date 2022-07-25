@@ -1,22 +1,24 @@
 .title {
+    height: 70px;
     font-size: 23px;
-    font-weight: 200;
+    font-weight: 700;
+    color: #fff;
 }
 
 .daily-item {
-    background-color: #f5f5f5;
-    border-radius: 15px;
-    height: 40px;
-    margin: 5px auto;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    height: 50px;
+    margin: 7px auto;
     align-items: center;
     cursor: pointer;
     display: flex;
-    font-size: 14px;
-    padding: 5px 20px;
+    font-size: 19px;
+    padding: 8px 25px;
 }
 
 .icon-small {
-    width: 40px;
+    width: 50px;
 }   
 
 .daily-item-day {
@@ -36,6 +38,7 @@
 
 .min-max {
     color: #757575;
+    font-weight: 600;
 }
 
 .daily-details-grid {
@@ -46,11 +49,12 @@
     display: grid;
     flex: 1 1;
     grid-template-columns: auto auto;
-    padding: 5px 105px;
+    padding: 7px 105px;
     row-gap: 0;
 }
 
 .daily-details-grid-item {
+    font-size: 20px;
     align-items: center;
     display: flex;
     height: 30px;
@@ -58,9 +62,11 @@
 }
 
 .daily-details-grid-item label:first-child {
-    color: #757575;
+    color: #ffffff;
+    font-weight: 300;
 }
 
 .daily-details-grid-item label:last-child {
-    color: #212121;
+    font-weight: 300;
+    color: #e3ff47;
 }
