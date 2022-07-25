@@ -1,7 +1,7 @@
 {
   "name": "react-weather-app",
   "version": "0.1.0",
-  "homepage": "http://raflimuhammadd.github.io/Weather-App-React.git",
+  "homepage": "https://raflimuhammadd.github.io/Weather-App-React.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
